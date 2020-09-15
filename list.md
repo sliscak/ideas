@@ -39,11 +39,11 @@ It could be possible using the Longformer transformer based model.
 The system could generate characters with names, descriptions, stats, and more(like relationships of characters, attitudes, moods and more.)  
 Input:  
 NAME:SANDRA,WEAPONS:KNIFE,MOOD:SAD,STRENGTH:MEELE WEAPONS,WEAKNES:FIRE;
-10. Use roberta large token classfication to find entities in descriptions,stories,text and use those in game.  
+10. Use roberta large or other transformer model for token classfication to find entities in descriptions,stories,text and use those in game.  
 NAME:SANDRA,WEAPONS:KNIFE,MOOD:SAD,STRENGTH:MEELE WEAPONS,WEAKNES:FIRE;NAME:JAMES,WEAPONS:SHOTGUN,MOOD:CHEERFUL,STRENGTH:SHORT RANGE WEAPONS,WEAKNES:ICE;  
 Link: <https://huggingface.co/xlm-roberta-large-finetuned-conll03-german?text=NAME%3ASANDRA%2CWEAPONS%3AKNIFE%2CMOOD%3ASAD%2CSTRENGTH%3AMEELE+WEAPONS%2C+WEAKNES%3AFIRE%3BNAME%3AJAMES%2CWEAPONS%3ASHOTGUN%2CMOOD%3ACHEERFUL%2CSTRENGTH%3ASHORT+RANGE+WEAPONS%2C+WEAKNES%3AICE%3B>  
 The game would know that the story is about those entities, could show them on screen(load/display the sprites,images of those entities) or generate new images,sprites of those entities with a GAN network or IGPT.  
-If the token classification network(like roberta,electra, etc) detects entities in text(like in a sentece or multiple sentences of a story, the game would load the images(or sprites) of those(said) entities, like for an example show them(characters) side by side to simulate with the text in the middle of ath the bottom of the screen to simulate a dialog.
+If the token classification network(like roberta,electra, etc) detects entities in text(like in a sentece or multiple sentences of a story, the game would load the images(or sprites) of those(said) entities, like for an example show the entities(characters) side by side to simulate with the text in the middle of ath the bottom of the screen to simulate a dialog.
 The token classification network could be use to detect the environment(location) described in the sentence,story,text and show an image of the location on screen(like game screen),
 if the location/environment would not be avaiable in memory the system could use similarity search to search for a similar image or generate a new one with GAN or IGPT.
 Example:  
