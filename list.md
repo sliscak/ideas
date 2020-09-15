@@ -35,4 +35,5 @@ Example:
 The output would be the animation data(a point cloud, voxels, or some other format)
 8. Use GPT-2 or other Transformer based models to generate a video sequence, either by using a single or multiple frames(represented in text form) as input or by using a sentence, description(of an object), or a whole document/story in text form as input.  
 It could be possible using the Longformer transformer based model.  
-9. Use GPT-2 or other Transformer based models to generate a list of entities(characters with descriptions and stats) for games.
+9. Use GPT-2 or other Transformer based models to generate a list of entities(characters with descriptions and stats) for games.  
+The system could generate characters with names, descriptions, stats, and more(like relationships of characters, attitudes, moods and more.)
