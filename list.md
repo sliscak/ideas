@@ -19,6 +19,7 @@ First, generate the story(text) with a GPT-2 or other Transformer based model.
 Second, use the the text(one or multiple sentences or the whole text) as input into IGPT.  
 Third, let IGPT generate the Image.  
 Fourth, use the Image as the main Image in the game Window or as a Background?  
+Or one could just detect the entities in the story/text and use those(the names and descriptions) as input into IGPT
 6. Can GPT-2 or other Transformer based models be used to generate a fake dataset?  
 I tried to use GPT-2 with the following input:  
 NAME:HENRI,AGE:32,LOCATION:GERMANY;NAME:JAMES,AGE:64,LOCATION:RUSSIA;  
