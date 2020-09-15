@@ -47,5 +47,5 @@ If the token classification network(like roberta,electra, etc) detects entities 
 The token classification network could be use to detect the environment(location) described in the sentence,story,text and show an image of the location on screen(like game screen),
 if the location/environment would not be avaiable in memory the system could use similarity search to search for a similar image or generate a new one with GAN or IGPT.
 Example:  
-Input: "It is the year 1946 in Germany, the city is destroyed."  
+Input: "It is the year 1946 in Germany, the city of ... is rebuild. Frank and Thomas are looking a new job."  the three dots could be any name of a city.  
 Output(TAGS) could be: YEAR 1946, LOCATION: GERMANY, CITY  and the game would load a picture of a German city in the year 1946 on the game screen.
