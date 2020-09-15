@@ -6,4 +6,9 @@ Text would be used as input for the transformer based model and the output from 
 2. Use GPT-2, GPT-3, BERT or other Transformer based models to convert code from one programming language to another programming language.
 For example convert Python code to equivalent Javascript code, where the output and side effects of functions are identical.
 3. Use GPT-2, GPT-3, BERT or other Transformer based models to convert programming language code to binary code(executable) and vice versa(binary code to programming language code)
-4. 
+4. AI RPG where you write or select your actions in english and the game randomly generates a floating point number to indicate the chance of success.  
+The random number indicates if the action taken is succesfull or not and the game would alter the story accordingly.  
+Text --> ACTION --> RANDOM NUMBER GENERATION --> STORY ALTERATION.  
+The game would generate the story with a Transformer based model and present you some choices(generated) of action or you would write your own.
+The game would then generate the random number indicating the success represented either in binary ((0, fail), (1, success)) or more detailed form(float in range between 0 and 1 where 1 could represent critical success and 0 critical or deadly failure, 0.5 could represent some form of success).
+
