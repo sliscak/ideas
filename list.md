@@ -20,7 +20,7 @@ I tried to use GPT-2 with the following input:
 NAME:HENRI,AGE:32,LOCATION:GERMANY;NAME:JAMES,AGE:64,LOCATION:RUSSIA;  
 Output from GPT-2:  
 NAME:HENRI,AGE:32,LOCATION:GERMANY;NAME:JAMES,AGE:64,LOCATION:RUSSIA;NAME:GARY,AGE:80,LOCATION:FRANCE;  
-It looks like GPT-2 can generate a sequence based on a pattern.
+It looks like GPT-2 can generate a sequence based on a pattern.  
 Link: <https://huggingface.co/gpt2?text=NAME%3AHENRI%2CAGE%3A32%2CLOCATION%3AGERMANY%3BNAME%3AJAMES%2CAGE%3A64%2CLOCATION%3ARUSSIA%3B>
 
 
