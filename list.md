@@ -30,5 +30,5 @@ Link: <https://huggingface.co/gpt2?text=NAME%3AHENRI%2CAGE%3A32%2CLOCATION%3AGER
 7. Generate Animation Data with GPT-2, GPT-3, BERT or other Transformer based models?  
 Use a english description of movement as input into the GPT-2, GPT-3, BERT or other Transformer based model and let it compute the Animation Data.  
 Example:  
-*Input:
+* Input:
 Move the characters hands up
