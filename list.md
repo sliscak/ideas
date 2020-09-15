@@ -10,5 +10,11 @@ For example convert Python code to equivalent Javascript code, where the output 
 The random number indicates if the action taken is succesfull or not and the game would alter the story accordingly.  
 Text --> ACTION --> RANDOM NUMBER GENERATION --> STORY ALTERATION.  
 The game would generate the story with a Transformer based model and present you some choices(generated) of action or you would write your own.
-The game would then generate the random number indicating the success represented either in binary ((0, fail), (1, success)) or more detailed form(float in range between 0 and 1 where 1 could represent critical success and 0 critical or deadly failure, 0.5 could represent some form of success).
+The game would then generate the random number indicating the success represented either in binary ((0, fail), (1, success)) integer/text or more detailed form(float in range between 0 and 1 where the number 1 could represent critical success and 0 critical or deadly failure, 0.5 could represent some form of success 
+The sucess rate would be either in integer floating point or text form.  
+There could be two ways to implement this:  
+1. Append the random number in number or text form to the action taken and use that as input for the transformer based model and let the transformer generate the outcome.
+2. Use the random number in a game system to compute the outcome. 
 
+
+  
