@@ -48,4 +48,4 @@ The token classification network could be use to detect the environment(location
 if the location/environment would not be avaiable in memory the system could use similarity search to search for a similar image or generate a new one with GAN or IGPT.
 Example:  
 Input: "It is the year 1946 in Germany, the city of ... is rebuild. Frank and Thomas are looking a new job."  the three dots could be any name of a city.  
-Output(TAGS) could be: YEAR:1946; LOCATION: GERMANY,CITY; CHARACTERS: FRANK,THOMAS;  and the game would load a picture of a German city in the year 1946 on the game screen. It could show images of those characters if avaiable or generate new ones.
+Output(TAGS) could be: YEAR:1946; LOCATION: GERMANY,CITY; CHARACTERS: FRANK,THOMAS;  and the game would load a picture of a German city in the year 1946 on the game screen. It could show images of those characters if avaiable or generate new ones, etc.
