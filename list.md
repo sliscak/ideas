@@ -36,4 +36,11 @@ The output would be the animation data(a point cloud, voxels, or some other form
 8. Use GPT-2 or other Transformer based models to generate a video sequence, either by using a single or multiple frames(represented in text form) as input or by using a sentence, description(of an object), or a whole document/story in text form as input.  
 It could be possible using the Longformer transformer based model.  
 9. Use GPT-2 or other Transformer based models to generate a list of entities(characters with descriptions and stats) for games.  
-The system could generate characters with names, descriptions, stats, and more(like relationships of characters, attitudes, moods and more.)
+The system could generate characters with names, descriptions, stats, and more(like relationships of characters, attitudes, moods and more.)  
+Input:  
+NAME:SANDRA,WEAPONS:KNIFE,MOOD:SAD,STRENGTH:MEELE WEAPONS,WEAKNES:FIRE;
+10. Use roberta large token classfication to find entities in descriptions,stories,text and use those in game.  
+NAME:SANDRA,WEAPONS:KNIFE,MOOD:SAD,STRENGTH:MEELE WEAPONS,WEAKNES:FIRE;NAME:JAMES,WEAPONS:SHOTGUN,MOOD:CHEERFUL,STRENGTH:SHORT RANGE WEAPONS,WEAKNES:ICE;  
+Link: <https://huggingface.co/xlm-roberta-large-finetuned-conll03-german?text=NAME%3ASANDRA%2CWEAPONS%3AKNIFE%2CMOOD%3ASAD%2CSTRENGTH%3AMEELE+WEAPONS%2C+WEAKNES%3AFIRE%3BNAME%3AJAMES%2CWEAPONS%3ASHOTGUN%2CMOOD%3ACHEERFUL%2CSTRENGTH%3ASHORT+RANGE+WEAPONS%2C+WEAKNES%3AICE%3B>  
+The game would know that the story is about those entities, could show them on screen(load/display the sprites,images of those entities) or generate new images,sprites of those entities with a GAN network or IGPT.
+
