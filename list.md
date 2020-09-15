@@ -26,6 +26,9 @@ NAME:HENRI,AGE:32,LOCATION:GERMANY;NAME:JAMES,AGE:64,LOCATION:RUSSIA;
 Output from GPT-2:  
 NAME:HENRI,AGE:32,LOCATION:GERMANY;NAME:JAMES,AGE:64,LOCATION:RUSSIA;NAME:GARY,AGE:80,LOCATION:FRANCE;  
 It looks like GPT-2 can generate a sequence based on a pattern.  
-Link: <https://huggingface.co/gpt2?text=NAME%3AHENRI%2CAGE%3A32%2CLOCATION%3AGERMANY%3BNAME%3AJAMES%2CAGE%3A64%2CLOCATION%3ARUSSIA%3B>
-
-
+Link: <https://huggingface.co/gpt2?text=NAME%3AHENRI%2CAGE%3A32%2CLOCATION%3AGERMANY%3BNAME%3AJAMES%2CAGE%3A64%2CLOCATION%3ARUSSIA%3B>  
+7. Generate Animation Data with GPT-2, GPT-3, BERT or other Transformer based models?  
+Use a english description of movement as input into the GPT-2, GPT-3, BERT or other Transformer based model and let it compute the Animation Data.  
+Example:  
+  Input:
+Move the characters hands up
