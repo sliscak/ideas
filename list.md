@@ -31,4 +31,5 @@ Link: <https://huggingface.co/gpt2?text=NAME%3AHENRI%2CAGE%3A32%2CLOCATION%3AGER
 Use a english description of movement as input into the GPT-2, GPT-3, BERT or other Transformer based model and let it compute the Animation Data.  
 Example:  
 * Input:
-Move the characters hands up
+"Move the characters hands up"  
+The output would be the animation data(a point cloud, voxels, or some other format)
