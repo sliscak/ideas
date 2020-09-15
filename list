@@ -1,0 +1,1 @@
+1. Use GPT-2, GPT-3 or other Transformer based models as scripting language in games. Explanation: you write a game script(the logic) in english and the transformer based model converts the english text to code that the game will execute.
