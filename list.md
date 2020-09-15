@@ -46,3 +46,6 @@ The game would know that the story is about those entities, could show them on s
 If the token classification network(like roberta,electra, etc) detects entities in text(like in a sentece or multiple sentences of a story, the game would load the images(or sprites) of those(said) entities, like for an example show them(characters) side by side to simulate with the text in the middle of ath the bottom of the screen to simulate a dialog.
 The token classification network could be use to detect the environment(location) described in the sentence,story,text and show an image of the location on screen(like game screen),
 if the location/environment would not be avaiable in memory the system could use similarity search to search for a similar image or generate a new one with GAN or IGPT.
+Example:  
+Input: "It is the year 1946 in Germany, the city is destroyed."  
+Output(TAGS) could be: YEAR 1946, LOCATION: GERMANY, CITY  and the game would load a picture of a German city in the year 1946 on the game screen.
