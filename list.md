@@ -49,3 +49,7 @@ if the location/environment would not be avaiable in memory the system could use
 Example:  
 Input: "It is the year 1946 in Germany, the city of ... is rebuild. Frank and Thomas are looking a new job."  the three dots could be any name of a city.  
 Output(TAGS) could be: YEAR:1946; LOCATION: GERMANY,CITY; CHARACTERS: FRANK,THOMAS;  and the game would load a picture of a German city in the year 1946 on the game screen. It could show images of those characters if avaiable or generate new ones, etc.
+11. Use GPT-2, GPT-3, BERT or other Transformer based models to convert/translate game scripts(like actions) to natural language.  
+Example(input could be any programming/scripting language or DSL):  
+Input: "ENEMY1 ATTACK WIZZARD, DAMAGE:64, WIZZARD HEALTH:100-64"  
+Output: "The enemy attacked the wizzard, the wizzard took 64 DMG, but he is still alife!"
