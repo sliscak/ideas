@@ -63,3 +63,4 @@ Transformer Decoder:
 Input: Embedding (low dimensional)  
 Output: Few Frames in High Resolution  
 The question is shoul the input be preprocessed with and convolutional neural network(CNN)?  
+14. A transformer based model for foto/video upscaling?  
