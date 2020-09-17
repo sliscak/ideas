@@ -53,4 +53,5 @@ Output(TAGS) could be: YEAR:1946; LOCATION: GERMANY,CITY; CHARACTERS: FRANK,THOM
 Example(input could be any programming/scripting language or DSL):  
 Input: "ENEMY1 ATTACK WIZZARD, DAMAGE:64, WIZZARD HEALTH:100-64"  
 Output: "The enemy attacked the wizzard with his dagger. The wizzard could not evade the attack and took 64 DMG, but he is still alife!"
-The game(transformer) could infer from the script that the wizzard is still alife.
+The game(transformer) could infer from the script that the wizzard is still alife.  
+12. Use GPT-2, GPT-3, BERT or other Transformer based models to generate ASCII art/graphics, enter the name or description of an object and let the transformer generate a ASCII text string representing the ASCII art.
