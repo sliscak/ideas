@@ -55,7 +55,7 @@ Input: "ENEMY1 ATTACK WIZZARD, DAMAGE:64, WIZZARD HEALTH:100-64"
 Output: "The enemy attacked the wizzard with his dagger. The wizzard could not evade the attack and took 64 DMG, but he is still alife!"
 The game(transformer) could infer from the script that the wizzard is still alife.  
 12. Use GPT-2, GPT-3, BERT or other Transformer based models to generate ASCII art/graphics, enter the name or description of an object and let the transformer generate a ASCII text string representing the ASCII art.
-13. A transformer based AutoEncoder for video compression?  
+13. Use a transformer based AutoEncoder for video compression?  
 Transformer Encoder:  
 Input: Few Frames in High Resolution  
 Output: Embedding (low dimensional)  
@@ -63,4 +63,5 @@ Transformer Decoder:
 Input: Embedding (low dimensional)  
 Output: Few Frames in High Resolution  
 The question is shoul the input be preprocessed with and convolutional neural network(CNN)?  
-14. A transformer based model for foto/video upscaling?  
+14. Use a transformer based model for foto/video upscaling?  
+15. Use a transformer based model for audio noise cancelling?  
