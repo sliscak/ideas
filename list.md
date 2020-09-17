@@ -66,5 +66,5 @@ The question is shoul the input be preprocessed with and convolutional neural ne
 14. Use a transformer based model for foto/video upscaling?  
 15. Use a transformer based model for audio noise cancelling?  
 16. Use GPT-2, GPT-3, BERT or other Transformer based models to generate levels/maps/worlds for games.  
-The input would be a description of a place and the transformer would generate a design for a level.
+The input would be a description of a place and the transformer would generate a design for a level.  
 The output could be a list of names of entities and objects with their respective coordinates that would be used to generate the level on screen.  
