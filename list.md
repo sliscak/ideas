@@ -62,7 +62,7 @@ Output: Embedding (low dimensional)
 Transformer Decoder:  
 Input: Embedding (low dimensional)  
 Output: Few Frames in High Resolution  
-The question is shoul the input be preprocessed with and convolutional neural network(CNN)?  
+The question is should the input be preprocessed with and convolutional neural network(CNN)?  
 14. Use a transformer based model for foto/video upscaling?  
 15. Use a transformer based model for audio noise cancelling?  
 16. Use GPT-2, GPT-3, BERT or other Transformer based models to generate levels/maps/worlds for games.  
