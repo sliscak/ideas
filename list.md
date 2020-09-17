@@ -70,4 +70,6 @@ The input would be a description of a place and the transformer would generate a
 The output could be a list of names of entities and objects with their respective coordinates(positions) that would be used to generate the level on screen.  
 If the game would be a ascii roguelike game, the output could be directly the level itself, every character from the output could represent a part of the level, one character would represent an enemy, another character would represent an item, and another one the game character, a wall, etc.  
 If the game would be a 2D or 3D the model output could represent the postion of entities and objects on the level.  
-For example(in a 2D game) if the input for the transformer would be: "beach" and the level would be divided into tiles then the output could be: SANDTILE[X=0, Y=10], SEATILE[X=10, Y=30], ROCKTILE[X=20, Y=50] where each tile represent an object or entity and the values 'x' and 'y' the coordinates.
+For example(in a 2D game) if the input for the transformer would be: "beach" and the level would be divided into tiles then the output could be: SANDTILE[X=0, Y=10], SEATILE[X=10, Y=30], ROCKTILE[X=20, Y=50] where each tile represent an object or entity and the values 'x' and 'y' the coordinates.  
+A 3D game entity or object would have 3 coordinates -> x, y and z.
+
