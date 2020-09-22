@@ -73,4 +73,8 @@ If the game would be a 2D or 3D the model output could represent the postion of 
 For example(in a 2D game) if the input for the transformer would be: "beach" and the level would be divided into tiles then the output could be: SANDTILE[X=0, Y=10], SEATILE[X=10, Y=30], ROCKTILE[X=20, Y=50] where each tile represents an object or entity and the values 'x' and 'y' the coordinates.  
 A 3D game entity or object would have 3 coordinates -> x, y and z.  
 The transformer could generate a minecraft style map, the output of the transformer would be the names and positions of entities and objects represented by voxels(or even by point clouds).  
-17. Use GPT-2, GPT-3, BERT or other Transformer based models to detect events, objects and entities in sentences, story, text and then try to call the event(name) as a function first by looking for the function in a list/array of functions or in a dictionary(hash table) of functions, if the function is found, then call it with the object and entities names as parameters/arguments.
+17. Use GPT-2, GPT-3, BERT or other Transformer based models to detect events(actions), objects and entities in sentences, story, text and then try to call the event(name) as a function first by looking for the function in a list/array of functions or in a dictionary(hash table) of functions, if the function is found, then call it with the object and entities names as parameters/arguments.  
+First detect the event(action), that is the function name. Then detect the objects and entities, now we  have the names of objects and entities. Call the function with the names of objects and entities as arguments/parameters.
+Event(event name) ==> function name
+Objects/Entities ==> function parameters.  
+event(object_name, ..., entity_name, ...)
