@@ -77,4 +77,10 @@ The transformer could generate a minecraft style map, the output of the transfor
 First detect the event(action), that is the function name. Then detect the objects and entities, now we  have the names of objects and entities. Call the function with the names of objects and entities as arguments/parameters.
 Event(event name) ==> function name
 Objects/Entities ==> function parameters.  
-event(object_name, ..., entity_name, ...)
+event(object_name, ..., entity_name, ...)  
+18. Use Neural Video Compression for Game Streaming/Cloud Gaming. Either use and Auto-Encoder convolutional neural network to compress the stream and send out embeddings.  
+Other ideas for Cloud Gaming/Game Stream video compression:  
+Train convolutional autoencoder that takes as input an frame or frames and the output would be the original frame, frames or the same frame, frames in higher resolution. The server would use the encoder to encode the game stream frame or frames into an embedding in realtime and the decoder(from the convolutional autoencoder) on the client device would decode the embedding and create the frame, frames and the software would display the on the screen. Another way to do this would be to use a second network for meta learning the weights of the autoencoder or of a superresolution convolutional neural network and send those weights to the client device and the client would load the model with those weights.  
+Game Stream frame,frames --> MetaLearning Convolutional Neural Network   
+The metalearning CNN (CNN = convolutional neural network) would take a frame or multiple frames as input and the output would be the weights of another neural network, either a CNN that takes as input an frame, frames in lower resolution and creates a frame, frames in higher resolution or the CNN would take as input an embedding and recreate the frame, frames from the embedding.
+Or i
