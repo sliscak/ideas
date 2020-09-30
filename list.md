@@ -96,4 +96,5 @@ For every pixel in the texture(or image) we get its coordinates and RGB value, w
 The texture will be recovered when the game loads the texture.  
 21. One-Shot SDF learing mesh geometry?  
 22. Use NN trained with SDF for long term storage, use neural radiance field to learn an object and use that network(that learned the object or enironment) as long term memory.  
-23. Use CNN on neural radiance field generated volumes or images for find object or for semantic segmentation.
+23. Use CNN on neural radiance field generated volumes or images for find object or for semantic segmentation.  
+24. Saving a video/animation into a MLP(multi layer perceptron) neural network, where the input is the x and y coordinate in the floating point form(between 0 and 1 inclusive) for one pixel and a floating point value representing the continuous timestep, that is 0 represents the start(first frame) of the video/animation, 0.5 the middle(frame) of the video/animation and 1 the end(last frame) of the vide/animation, other values represent their respective timesteps. 
