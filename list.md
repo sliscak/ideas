@@ -96,4 +96,4 @@ For every pixel in the texture(or image) we get its coordinates and RGB value, w
 The texture will be recovered when the game loads the texture.  
 21. One-Shot SDF learing mesh geometry?  
 22. Use NN trained with SDF for long term storage, use neural radiance field to learn an object and use that network(that learned the object or enironment) as long term memory.  
-23. Use CNN on neural radiance field generated volumes or images.
+23. Use CNN on neural radiance field generated volumes or images for find object or for semantic segmentation.
