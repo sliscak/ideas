@@ -93,4 +93,6 @@ The game texture is compressed/represented as the weights of the neural network.
 The game texture is compressed(learned) beforehand.  
 The original game texture is an image.  
 For every pixel in the texture(or image) we get its coordinates and RGB value, we normalize the coordinate(x and y pair) as float values between 0 an 1, use  them as the neural network input(feed them into the network) and the output are is RGB value of the pixel at that coordinate. So the output is a array of 3 values (because we have 3 channels): Red Green and Blue.  The ground truth value(the pixel value of the original texture) is used in the optimizer to compute the mean squared error(or other type of erro signal, like MSA, etc).  After training and overfiting the neural network with the one texture represented as the dataset we recover the texture(or just concrete pixels of the texture) by looping over the coordinates(all of the x and y pairs).  The weights of the trained/overfited network represent on texture.  
-The texture will be recovered when the game loads the texture.
+The texture will be recovered when the game loads the texture.  
+21. One-Shot SDF learing mesh geometry?  
+22. Use NN trained with SDF for long term storage, use neural radiance field to learn an object and use that network(that learned the object or enironment) as long term memory.
