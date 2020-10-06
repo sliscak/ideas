@@ -102,5 +102,7 @@ Example: A video(file) would be 50 minutes long, that would be 3000 seconds(50 *
 the one fourth time position of the whole video/animation would be 750 seconds(3000 * 0.25) represented as 0.25 float.  
 25. Use GPT-2, GPT-3, BERT or other Transformer based models to generate textures, shaders or meshes.  
 A transformer model would be used to generate mesh data, or texture data or a shader.  
-The input would be a description of the texture, shader or mesh and the output would be either the data: either the texture, shader or mesh.
+The input would be a description of the texture, shader or mesh and the output would be either the data: either the texture, shader or mesh.  
+In games(ingame) a user would write a description of an objest/mesh/texture/shader and the game would send the query/text-string to an Transformer(or an API/transformer running on a server), the query would consist of either just the description or of two or more examples(description and data pairs) and the description the user wrote. The server/transformer would return the output/data(texture,shader or mesh). The game would load and display the data(texture,shader or mesh). So the system would generate new data based on the descriptions on the fly.  
+
 
