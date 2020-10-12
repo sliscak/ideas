@@ -129,7 +129,7 @@ The descriptions/names of the objects would be send to a Transformer based model
 34. AI video upscaler that would use continous signed distance functions
 35. AI video upscaler that would use the floating point coordinates(from Cartesian coordinate system) of a pixel as input?  
 36. Realtime AI game upscaler:
-* the network/model would use similarity search to search over all textures to be used as reference(the model would find one or more textures and use them as input), input for the model. The textures could have embedded metadata. The model could search for the right textures by learning to compare them opticaly(as images) and/or by the name(search by name/word embedding)
+* the network/model would use similarity search to search over all textures to be used as reference(the model would find one or more textures and use them as input), input for the model. The textures could have embedded metadata. The model could search for the right textures by learning to compare them opticaly(as images) and/or by the name(search by name/word embedding). Another way would be to find/classify the textures visible on the current frame and use the found/recognized textures as input for the model.
 * the network/model would use multiple previous frames as input
 * the network/model would use motion vectors/optical flow as input
 * the network/model would output an upscaled frame that would be downsampled and the downsampled frame/image would be used as input for the loss function
