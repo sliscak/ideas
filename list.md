@@ -118,3 +118,5 @@ The descriptions/names of the objects would be send to a Transformer based model
 32. AI video file upscaler: 
 * the network/model would use similarity search to search over the whole video file for reference images that would be used as input
 * the network/model would use multiple previous frames as input
+* the network/model would output an upscaled frame that would be downsampled and the downsampled frame/image would be used as input for the loss function
+* the network/model would use as loss the MSE or similar loss function.
