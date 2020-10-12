@@ -126,4 +126,5 @@ The descriptions/names of the objects would be send to a Transformer based model
 * the network/model would have a small buffer(of probably 1000 frames/images) of previous(older) frames/images for use as reference and would use similarity search to search for reference frames/images inside the buffer
 * the network/model would output an upscaled frame that would be downsampled and the downsampled frame/image would be used as input for the loss function
 * the network/model would use as loss the MSE or similar loss function.  
-34. AI video upscaler that would use continous signed distance functions?
+34. AI video upscaler that would use continous signed distance functions
+35. AI video upscaler that would use a as input the floating point coordinates(from Cartesian coordinate system) of a pixel as input?
