@@ -120,4 +120,6 @@ The descriptions/names of the objects would be send to a Transformer based model
 * the network/model would use multiple previous frames as input
 * the network/model would output an upscaled frame that would be downsampled and the downsampled frame/image would be used as input for the loss function
 * the network/model would use as loss the MSE or similar loss function.  
-33. Realtime AI video upscaler:  
+33. Realtime AI video upscaler:
+* the network/model would use multiple previous frames as input
+* the network/model would use motion vectors/optical flow as input
