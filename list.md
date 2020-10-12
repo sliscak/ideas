@@ -115,3 +115,5 @@ The descriptions/names of the objects would be send to a Transformer based model
 (Or train a transformer model directly on NAL-english pairs or english-NAL pairs where the first thing is the input and the second is the desired output) 
 30. Differentiable NARS/OpenNARS. It could be written in python with the pytorch library and would/could be GPU/TPU accelerated. It could be trained(with backpropagation/autodiff) to learn new rules. The differentiable NARS/OpenNARS could be combined with other models(neural networks) to build an end to end trainable model/system.  
 31. Use DLSS(or similar technology) with "GeForce Now"(or other cloud gaming service) to upscale the game stream, it would lower the bandwidth requirements(and even the latency). Every game would have its own DLSS profile. The gaming service would stream the game in low resolution to the client, the client would load the correct DLSS profile and would use DLSS to upscale the game stream to a higher resolution. 
+32. AI video file upscaler: 
+*the network/model would use similarity search to search over the whole video file for reference images
