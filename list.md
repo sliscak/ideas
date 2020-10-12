@@ -123,4 +123,5 @@ The descriptions/names of the objects would be send to a Transformer based model
 33. Realtime AI video upscaler:
 * the network/model would use multiple previous frames as input
 * the network/model would use motion vectors/optical flow as input
-* the network/model would have a small buffer(of probably 1000 items) of previous(older) frames/images and would use similarity search to search for reference frames/images inside the buffer
+* the network/model would have a small buffer(of probably 1000 frames/images) of previous(older) frames/images for use as reference and would use similarity search to search for reference frames/images inside the buffer
+* the network/model would output an upscaled frame that would be downsampled and the downsampled frame/image would be used as input for the loss function
