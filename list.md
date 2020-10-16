@@ -117,9 +117,9 @@ Example Narsese to english(few-shot version), TEXT and NARSESE represent tags or
   TEXT:Dog is a type of animal.;NARSESE:<dog --> animal>.;  
   TEXT:Cat is a type of animal.;NARSESE:<cat --> animal>.;  
   TEXT:Bear is a type of animal.;NARSESE:<bear --> animal>.;  
-  (now the user input in the form TEXT:user-input, here is the user input: Horse is a type of animal)  
+  (now the user input in the form: "TEXT:user-input", here the user input is: "Horse is a type of animal")  
   TEXT:Horse is a type of animal.;  
-  (then GPT3/transformer woul output:)  
+  (and then GPT3/transformer would output:)  
   NARSESE:<horse --> animal>.;
     
   The full query could look like this:  
