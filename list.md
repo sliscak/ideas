@@ -150,7 +150,7 @@ Another way would be to load the textures used in the current frame/scene direcl
 * the network/model would use motion vectors/optical flow as input
 * the network/model would use depth data(if available) as input
 * the network/model would output an upscaled frame that would be downsampled and the downsampled frame/image would be used as input for the loss function  
-37. When users write in a natural language(like english) to NARS with GPT/transformer based parser(see 29.), let the users rate the quality of the output(for example english-narsese pairs) with numbers(0 to 1 float or 0 to 100 integer), store the input-output pair with the rating(for example into a database) and if the input-output pair gets a good enough rating use it for learning(few-shot learning) or training(train the whole transformer model on  those pairs)[the pairs would be used as part of the training set.]  
+37. When users write in a natural language(like english) to NARS with GPT/transformer based parser(see 29.), let the users rate the quality of the output(for example english-narsese pairs) with numbers(0 to 1 float or 0 to 100 integer), store the input-output pair with the rating(for example into a database) and if the input-output pair gets a good enough rating use it for learning(few-shot learning) or training(train the whole transformer model on  those pairs)[the pairs would be used as part of the training dataset.]  
   The low/bad quality output could be used for analytics(where to improve the model, etc).  
 38. Append for 29. and 37.
   If the used transformer would be a Longformer, use as many examples as possible for few-shot learning, the query would consist mostly out of example pairs(english-narse, narse-english)  
