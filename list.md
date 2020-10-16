@@ -156,5 +156,6 @@ Another way would be to load the textures used in the current frame/scene direcl
   If the used transformer would be a Longformer, use as many examples as possible for few-shot learning, the query would consist mostly out of example pairs(english-narse, narse-english)  
 39. Append for 29. and 37.  
   For the NARS to NARSESE(and backward) parser/translator: we could store the example pairs into a file and use the RetriBert(transformer model) as parser/translator,
-  RetriBert would search for the most similar examples in the file and use them as reference/part of input for itself.
+  RetriBert would search for the most similar examples in the file and use them as reference/part of input for itself.  
+40. A trasnformer based web scraper?
   
