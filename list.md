@@ -160,7 +160,7 @@ Another way would be to load the textures used in the current frame/scene direcl
   Insted of RetriBert we could use another Retrieval-augmented generation model like "RAG".
 40. A trasnformer based web scraper?  
 41. Make a big dataset of narsese-english and english-narsese pairs and use them to train the parser/translator(see 29.)  
-42. Use Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf to colorize images and videos.
-  The first GAN would be trained to generate colored images.
+42. Use Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf to colorize images and videos.  
+  The first GAN would be trained to generate colored images.  
   The second GAN would be trained to generate black-white or gray images or old looking images.  
   And the weights would be swapped as in Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf
