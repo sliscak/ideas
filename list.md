@@ -163,4 +163,10 @@ Another way would be to load the textures used in the current frame/scene direcl
 42. Use Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf to colorize old images and videos.  
   The first GAN would be trained to generate colored images.  
   The second GAN would be trained to generate black-white or gray images or old looking images.  
+  And the weights would be swapped as in Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf  
+43. Use Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf to change the age of people on photos and videos.
+  This example would be to turn young people old on photos/images.
+  The faces of young people would look old.
+  The first GAN would be trained to generate images(faces) of young people.  
+  The second GAN would be trained to generate images(faces) of old people.  
   And the weights would be swapped as in Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf
