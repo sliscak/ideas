@@ -189,4 +189,5 @@ Another way would be to load the textures used in the current frame/scene direcl
   Output:  
     <wolf --> [grau]>.  
       
+      
   
