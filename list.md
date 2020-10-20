@@ -184,9 +184,9 @@ Another way would be to load the textures used in the current frame/scene direcl
   <wolf --> animal>?  
   The model could translate any natural language string to narsese.(any language to narsese)  
   For example:  
-    Input:  
-      translate German to Narse: Der Wolf ist grau.  
-    Output:
-      <wolf --> [grau]>.
-  
+  Input:  
+    translate German to Narse: Der Wolf ist grau.  
+  Output:  
+    <wolf --> [grau]>.  
+      
   
