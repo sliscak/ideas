@@ -157,7 +157,7 @@ Another way would be to load the textures used in the current frame/scene direcl
 39. Append for 29. and 37.  
   For the English to Narsese(and backward) parser/translator: we could store the example pairs into a file and use the RetriBert(transformer model) as parser/translator,
   RetriBert would search for the most similar examples in the file and use them as reference/part of input for itself(use them as part of it's input).  
-  Insted of RetriBert we could use another Retrieval-augmented generation model like "RAG".
+  Instead of RetriBert we could use a Retrieval-augmented generation model like "RAG".
 40. A trasnformer based web scraper?  
 41. Make a big dataset of narsese-english and english-narsese pairs and use them to train the parser/translator(see 29.)  
 42. Use Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf to colorize old images and videos.  
