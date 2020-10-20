@@ -175,4 +175,6 @@ Another way would be to load the textures used in the current frame/scene direcl
   Input: 
     translate English to Narsese: Wolf is a type of animal.
   Output:
-    <wolf --> animal>.
+    <wolf --> animal>.  
+    
+  The model could translate any natural language string to narsese.
