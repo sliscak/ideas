@@ -170,8 +170,8 @@ Another way would be to load the textures used in the current frame/scene direcl
   The first GAN would be trained to generate images(faces) of young people.  
   The second GAN would be trained to generate images(faces) of old people.  
   And the weights would be swapped as in Resolution Dependant GAN Interpolation from https://arxiv.org/pdf/2010.05334.pdf  
-44. Using T5 transformer to translate English to Narsese.
-  Example1:  
+44. Using T5 transformer to translate English to Narsese.  
+Example1:  
   Input:  
     translate English to Narsese: Wolf is a type of animal.  
   Output:  
