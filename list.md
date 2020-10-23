@@ -189,3 +189,4 @@ Another way would be to load the textures used in the current frame/scene direcl
     <wolf --> [grau]>.  
 45. Use a overfited transformer to compress enwik9 to maybe win the hutter prize.  
       Overfit a transformer model on the enwiki9 [dataset]
+46. AI image/video upscaling with a transformer model?
