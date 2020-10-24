@@ -188,5 +188,15 @@ Another way would be to load the textures used in the current frame/scene direcl
   Output:  
     <wolf --> [grau]>.  
 45. Use a overfited transformer to compress enwik9 to maybe win the hutter prize.  
-      Overfit a transformer model on the enwiki9 [dataset]
-46. AI image/video upscaling with a transformer model?
+      Overfit a transformer model on the enwiki9 [dataset]  
+46. AI image/video upscaling with a transformer model?  
+47. Use a transformer to compress text or binary file.
+      INPUT:
+        ID: 12345
+        OUTPUT: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+      
+      ID is a number representing the part/section that is compressed
+      OUTPUT represents the text or binary numbers at that ID or section.
+      
+      Train the transformer until it overfits.  
+      
