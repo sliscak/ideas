@@ -203,4 +203,6 @@ Another way would be to load the textures used in the current frame/scene direcl
 48. Train and use a transformer based model to predict the output of a function or source code without executing it.  
 Use source code as input for the transformer and the output from the transformer model would be the result/output of the source code or function as if it was executed.  
 49. A transformer based Transpiller or Compiller that would take source code(text string) a input and output a binary string.  
-50. A trasformer based model that would transpile/translate code to code like: from x64 to ARM64. Translate/convert code to code.
+50. A trasformer based model that would transpile/translate code to code from one architecture to another like: from x64 to ARM64. Translate/convert code to code.  
+The input would be a binary code(string) of a part or of the whole binary executable(of one architecture) and the output of the transformer would be the binary code of the target architecture.  
+The transformer would be trained on input-output pairs, the first part of the pair would be the binary code of the input architecure and the second part would be the binary code of the target architecture.
