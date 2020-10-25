@@ -200,3 +200,5 @@ Another way would be to load the textures used in the current frame/scene direcl
       
       Train the transformer until it overfits.  
       
+48. Train and use a transformer based model to predict the output of a function or source code without executing it.  
+Use source code as inout for the transformer and the output from the transformer model woulbe be the result/output of the source code or function.
