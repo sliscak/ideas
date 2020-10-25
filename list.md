@@ -203,6 +203,24 @@ Another way would be to load the textures used in the current frame/scene direcl
 48. Train and use a transformer based model to predict the output of a function or source code without executing it.  
 Use source code as input for the transformer and the output from the transformer model would be the result/output of the source code or function as if it was executed.  
 49. A transformer based Transpiller or Compiller that would take source code(text string) a input and output a binary string.  
-50. A trasformer based model that would transpile/translate code to code from one architecture to another like: from x64 to ARM64. Translate/convert code to code.  
+50. A trasformer based model that would transpile/translate binart code to  binary code from one architecture to another like: from x64 to ARM64. Translate/convert code to code.  
 The input would be a binary code(string) of a part or of the whole binary executable(of one architecture) and the output of the transformer would be the binary code of the target architecture.  
-The transformer would be trained on input-output pairs, the first part of the pair would be the binary code of the input architecure and the second part would be the binary code of the target architecture.
+The transformer would be trained on input-output pairs, the first part of the pair would be the binary code of the input architecure and the second part would be the binary code of the target architecture.  
+The T5 transformer model could be used:  
+Example:  
+  Input:  
+    Translate from x64 to ARM64: {here would be the x64 binary code }
+    
+  Output:
+    {here would be the ARM64 binary code}
+    
+ Or the transformer model could translate binary code(of one architecture) to assembly code(of the targert architecture).  
+ 
+ 51.A transformer model that would translate assembly code of one architecture to assembly code of a target architecture.(from x64 assembly to AMR assembly, x64 assembly to RICS, etc.)  
+ A T5 transformer model could be used:
+ Example:
+  Input:  
+    "Translate from x64 to ARM64: {here would be the x64 assembly code }"
+    
+  Output:
+    "{here would be the ARM64 assembly code}"
