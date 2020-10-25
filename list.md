@@ -209,7 +209,7 @@ The transformer would be trained on input-output pairs, the first part of the pa
 The T5 transformer model could be used:  
 Example:  
   Input:  
-    Translate from x64 to ARM64: {here would be the x64 binary code }
+    Translate x64 to ARM64: {here would be the x64 binary code }
     
   Output:
     {here would be the ARM64 binary code}
@@ -220,7 +220,7 @@ Example:
  A T5 transformer model could be used:  
  Example:  
  Input:  
-    "Translate from x64 to ARM64: {here would be the x64 assembly code }"  
+    "Translate x64 to ARM64: {here would be the x64 assembly code }"  
  Output:  
     "{here would be the ARM64 assembly code}"  
-
+It would be trained on input-output pairs. The input would be the assembly code of the input architecture and output would be the assembly code of the target architecture.
