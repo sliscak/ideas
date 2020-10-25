@@ -217,10 +217,10 @@ Example:
  Or the transformer model could translate binary code(of one architecture) to assembly code(of the targert architecture).  
  
  51.A transformer model that would translate assembly code of one architecture to assembly code of a target architecture.(from x64 assembly to AMR assembly, x64 assembly to RICS, etc.)  
- A T5 transformer model could be used:
- Example:
-  Input:  
-    "Translate from x64 to ARM64: {here would be the x64 assembly code }"
-    
-  Output:
-    "{here would be the ARM64 assembly code}"
+ A T5 transformer model could be used:  
+ Example:  
+ Input:  
+    "Translate from x64 to ARM64: {here would be the x64 assembly code }"  
+ Output:  
+    "{here would be the ARM64 assembly code}"  
+
