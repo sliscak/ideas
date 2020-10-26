@@ -190,10 +190,11 @@ Another way would be to load the textures used in the current frame/scene direcl
 45. Use a overfited transformer to compress enwik9 to maybe win the hutter prize.  
       Overfit a transformer model on the enwiki9 [dataset]  
 46. AI image/video upscaling with a transformer model?  
-47. Use a transformer to compress text or binary file.
-      INPUT:
-        ID: 12345
-        OUTPUT: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+47. Use a transformer to compress text or binary file.  
+      INPUT:  
+        ID: 12345  
+      OUTPUT:  
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
       
       ID is a number representing the part/section that is compressed
       OUTPUT represents the text or binary numbers at that ID or section.
@@ -223,4 +224,20 @@ Example:
     "Translate x64 to ARM64: {here would be the x64 assembly code }"  
  Output:  
     "{here would be the ARM64 assembly code}"  
-It would be trained on input-output pairs. The input would be the assembly code of the input architecture and output would be the assembly code of the target architecture.
+It would be trained on input-output pairs. The input would be the assembly code of the input architecture and output would be the assembly code of the target architecture.  
+
+52. Compress textures into a transformer based model.  
+A T5 transformer model could be trained to output textures when using input ids.  
+The output could be a base64 string, binary string or RGB integer values in a text string.
+Example:  
+Input:  
+  ID: 1545464  
+Output(base64 image):
+  iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAALElEQVR4nGJRS/RhQALV06SQuUwMeAFNpVmSHKOQ+VcDEulmNwFpQAAAAP//0JIEmh25QkkAAAAASUVORK5CYII=]
+
+Output(RGB values):
+  255,120,0,123,65,11
+ 
+ The input would be a integer number/value in the form: "ID: integer-number-here" corresponding to the index number of the saved/learned image.
+ Exaple: "ID: 12312412"
+
