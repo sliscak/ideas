@@ -240,4 +240,12 @@ Output(RGB values):
  
  The input would be a integer number/value in the form: "ID: integer-number-here" corresponding to the index number of the saved/learned image.
  Exaple: "ID: 12312412"
-
+  
+53. An crowdsourced app to stop waiting in lines, waiting in restaurants, theaters, to stop waiting everywhere where a crowd of people is.
+It could be webapp or mobile app, after the user would start the app it would detect the user postion with satelites(GPS/GLONASS),
+the app would show the neares businesses(pub, theater, etc.), points of inteterest and the user could choose between them or enter/register a new point.
+After selecting the point/location/business the user would input the number of people waiting (like waiting in line, or people in crowd) and the time the user is waiting.
+After the user confirms the input would send to the server.
+The server would calculate the number of people/or crowds and show them on a google street or openstreet map. 
+On the map the number of people or crowds would be shown as colored hotspots and after clicking on them the average waiting time would be shown and a history how bussy the spot is.
+The server could analyse the data and predict the future waiting times.
