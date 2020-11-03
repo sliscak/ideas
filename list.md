@@ -249,4 +249,4 @@ After the user confirms the input would send to the server.
 The server would calculate the number of people/or crowds and show them on a google street or openstreet map. 
 On the map the number of people or crowds would be shown as colored hotspots and after clicking on them the average waiting time would be shown and a history how bussy the spot is.
 The server could analyse the data and predict the future waiting times.  
-
+54. Neural network for video colorization where the input is a batch of frames and multiple reference images (not from the same video) found with similarity search( or similarity search and extraction network.)
