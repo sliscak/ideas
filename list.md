@@ -249,4 +249,7 @@ After the user confirms the input would send to the server.
 The server would calculate the number of people/or crowds and show them on a google street or openstreet map. 
 On the map the number of people or crowds would be shown as colored hotspots and after clicking on them the average waiting time would be shown and a history how bussy the spot is.
 The server could analyse the data and predict the future waiting times.  
-54. Neural network for video colorization where the input is a batch of frames and multiple reference images (not from the same video) found with similarity search( or similarity search and extraction network.)
+54. Neural network for video colorization where the input is a batch of frames and multiple reference images (not from the same video) found with similarity search( or similarity search and extraction network.)  
+55. Compressing a image with a Neural Network by trying to learn rectangular parts of an image.  
+The input of the neural network is the location/coordinates of the rectangle/window representing a part of the image. The input is four(4) floating point values X1,Y1,X2,Y2,  normalized in range from -1 to 1, they represent the location/coordinates of a rectangle/window(part) inside the image.
+The output of the neural network is a rectangle/window array of pixel values representing the pixels of the image inside the rectangle at the input location
