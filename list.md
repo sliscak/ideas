@@ -255,4 +255,4 @@ The input of the neural network is the location/coordinates of the rectangle/win
 The output of the neural network is a rectangle/window array of pixel values representing the pixels of the image inside the rectangle at the input location.  
 One neural network would learn one image.  
 The weights of the neural network would represent the (compressed) image.  The image would be decompressed by loading the weights into the neural network and recovering all parts/rectangles/windows of the image and concatenating them together.  
-
+56. Use a transformer model to convert EEG spectograms to images(frames)/videos.
