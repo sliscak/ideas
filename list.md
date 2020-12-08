@@ -255,4 +255,12 @@ The input of the neural network is the location/coordinates of the rectangle/win
 The output of the neural network is a rectangle/window array of pixel values representing the pixels of the image inside the rectangle at the input location.  
 One neural network would learn one image.  
 The weights of the neural network would represent the (compressed) image.  The image would be decompressed by loading the weights into the neural network and recovering all parts/rectangles/windows of the image and concatenating them together.  
-56. Use a transformer model to convert EEG spectograms to images(frames)/videos.
+56. Use a transformer model to convert EEG spectograms to images(frames)/videos.  
+57. Combine neural dictionary with similarity search(for speedup) and when finding the most similar keys, return/use them in the neural dictionary computation.
+Could even save stats/statistics/metadata on how many times the key/value was accesed/modified.
+Have some guarantee that unused keys are probably not important enough/or not learned/initialized,,,,,
+Use that meta data logging in classification tasks, where each key is a class and when you find/search for a key/class that hasn't been used or learned before you can tell the user that it's either not in memory, or learned or that the value is random/uninitialized
+Could be used as uncertainty value.the count of how many times it was learned/accesed,
+How the network is surprised, (suprised like in read Random Network Distillation)
+When you access a key the first time then The network is surprised a the uncertainty is 100% and the value can't be used in classification or further processing without training (or pretraining).
+If the key was accesed multiple times or trained/learned the the value cant be used as probability in classification or other processing.
