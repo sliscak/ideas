@@ -278,4 +278,10 @@ The neural network(or model) would use similarity-search/retrieval and attention
   Take the tile first tile from the image and similarity search for the most similar tile in the faiss index.  When the most similar tile is found save the (found) tiles known class into a list.(tldr. we will classify every tile of the image).
   Repeat for every tile in the image(until the last tile is classified).
   We ge an array/list of regions which have a class.(a list(or image) where every region is classified).  
-  We can now tell to which class the whole image belongs(by looking at the most prevalent class in the list) or which part of the image belongs to a certain class.(or multiple classes if they overlap).
+  We can now tell to which class the whole image belongs(by looking at the most prevalent class in the list) or which part of the image belongs to a certain class.(or multiple classes if they overlap).  
+70. Speed up a trained neural network/MLP(multi layer perceptron) by replacing every linear/dense layer with similarity search from the faiss library.  
+Take one layer, make a new pytorch module, create a faiss index object, copy the weights from the old layer into the faiss index object. Write a new forward function that uses similarity searches for the most similar tensor/array/neuron in the faiss index object, the similarity search returns the distance between the input/query and saved tensors/arrays/neurons and the index value/position of the found(most similar) tensor/array.
+Get 1 or more distance values and correspoding index values. Create a new array/tensor filled with zeros. Replace zeros with distance values of the found tensors at the correct index and return/feed the array/tensor into the next layer.
+EXAMPLE:  When we have 4 arrays/tensors saved in the faiss index object and the similarity search returns the third tensor(at index 2) from the faiss index object with a distance value of 0.99.  
+  We create a new array filled with zeros of length 4. [0,0,0,0] and replace the third value(at index 2) with the distance value 0.99, like this: [0,0, 0.99, 0].  
+  We then feed the array [0,0, 0.99, 0] into the next layer.
