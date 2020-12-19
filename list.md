@@ -271,11 +271,11 @@ Again: have a bunch of examples(tensors like images,states, etc.) of one class, 
 The game engine would provide all necesary thing, the most important ones are the last few frames and high resolution versions of the textures used in the current frame.  
 Providing textures(texture data in high resolution) would prevent the network from using up its capacity to learn the high resolution details, it could be thought as a general way to upscale the game frame.  
 The neural network(or model) would use similarity-search/retrieval and attention to retrieve the data from the most relevant texture from all as input provided textures.  
-60. Break up an image(with a known class) into many smaller tiles(each tile would be shifted from the previous tile by a ceratin amount of pixels(defined by the stride value.)  
+60. Break up an image(with a known class) into many smaller tiles(each tile would be shifted from the previous tile by a certain amount of pixels(defined by the stride value.)  
   Save every tile into the faiss index(or list) and every tiles class into a list or database.  
   Repeat this for every image in a dataset.  
   When classifying an image break up the image into many smaller tiles(where every tile is shifted from the previous).  
   Take the tile first tile from the image and similarity search for the most similar tile in the faiss index.  When the most similar tile is found save the (found) tiles known class into a list.(tldr. we will classify every tile of the image).
   Repeat for every tile in the image(until the last tile is classified).
-  We ge an array/list of regions which have a class.(every region is classified).  
-  We can now tell to which class the whole image belongs(by looking at the most prevalent class in the list). An we know all sub-classes.
+  We ge an array/list of regions which have a class.(a list(or image) where every region is classified).  
+  We can now tell to which class the whole image belongs(by looking at the most prevalent class in the list) or which part of the image belongs to a certain class.(or multiple classes if they overlap).
