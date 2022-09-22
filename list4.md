@@ -1,2 +1,2 @@
-1. #### Make an Gradio app that turn voice into an image using [Whisper](https://github.com/openai/whisper) and [Stable Diffusion](https://github.com/CompVis/stable-diffusion)  
+1. #### Make an Gradio app that turn voice into an image using [Whisper](https://github.com/openai/whisper) and [Stable Diffusion](https://github.com/CompVis/stable-diffusion)<br />
 The gradio app would record the voice of the user, feed it into the Whisper model, the Whisper model convert the voice into text and then the text would be feed into the stable-diffusion which would make an image from the text input.
