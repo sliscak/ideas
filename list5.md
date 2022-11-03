@@ -1,0 +1,2 @@
+1. ### Train [Whisper](https://github.com/openai/whisper) on EEG spectrogram and text(or label) pair datasets(like [MindBigData "IMAGENET"]([http://www.mindbigdata.com/](http://www.mindbigdata.com/opendb/imagenet.html))), to turn EEG spectrograms into text(or labels) (thoughts to text). Use the guide from https://huggingface.co/blog/fine-tune-whisper to train Whisper.
+2. The model would be used to decode EEG spectrograms into text(or labels).
